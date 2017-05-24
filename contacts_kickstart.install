@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the Contacts Kickstart profile.
+ */
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ *
+ * @see system_install()
+ */
+function contacts_kickstart_install() {
+  // Make the contact dashboard the front page.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/admin/contacts')->save(TRUE);
+
+  // Allow visitor account creation.
+  $user_settings = \Drupal::configFactory()->getEditable('user.settings');
+  $user_settings->set('register', USER_REGISTER_VISITORS)->save(TRUE);
+
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+}

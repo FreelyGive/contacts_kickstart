@@ -1,0 +1,12 @@
+{
+  "name": "drupal/contacts_kickstart",
+  "description": "Creates a contacts list using decoupled users.",
+  "type": "drupal-profile",
+  "homepage": "https://www.drupal.org/project/contacts_kickstart",
+  "license": "GPL-2.0+",
+  "require": {
+    "drupal/contacts": "^1.0",
+    "drupal/default_content": "1.x-dev",
+    "drupal/better_normalizers": "^1.0"
+  }
+}

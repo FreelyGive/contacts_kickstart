@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/534?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/440?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 534
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d88b814e-556c-494e-98c5-83a697272743"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 534
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/440?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cc778996-83c6-4ab6-b619-31a999847835"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1444747001
+        }
+    ],
+    "changed": [
+        {
+            "value": 1458516686
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "San Pedro",
+            "dependent_locality": null,
+            "postal_code": "4023",
+            "sorting_code": null,
+            "address_line1": "9967 Annamark Court",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Feedbug"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 378370"
+        }
+    ]
+}

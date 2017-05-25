@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/541?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/445?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 541
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0afb062a-43c5-4d5c-bfd0-2dbec25a61a7"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 541
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/445?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c16035aa-387a-450f-b57d-937e849e05ce"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1373076754
+        }
+    ],
+    "changed": [
+        {
+            "value": 1475100853
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Morden",
+            "dependent_locality": null,
+            "postal_code": "R6M",
+            "sorting_code": null,
+            "address_line1": "1766 Carberry Lane",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Edgeclub"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 251014"
+        }
+    ]
+}

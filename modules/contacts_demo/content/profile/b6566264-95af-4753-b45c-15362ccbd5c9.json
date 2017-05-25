@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/554?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/454?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 554
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b6566264-95af-4753-b45c-15362ccbd5c9"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 554
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/454?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ec2d9ca0-6e85-4023-b056-6368e865f274"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1405038817
+        }
+    ],
+    "changed": [
+        {
+            "value": 1480511694
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Carlisle",
+            "dependent_locality": null,
+            "postal_code": "D74 8XW",
+            "sorting_code": null,
+            "address_line1": "7034 The Grove",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1986-10-22"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "male"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mr Rich Rhodes",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 832892"
+        }
+    ]
+}

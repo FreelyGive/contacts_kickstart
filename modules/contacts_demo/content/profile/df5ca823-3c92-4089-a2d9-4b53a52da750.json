@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/559?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/459?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 559
+        }
+    ],
+    "uuid": [
+        {
+            "value": "df5ca823-3c92-4089-a2d9-4b53a52da750"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 559
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/459?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8541541a-930f-440d-a18d-f43e34c5c491"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1330569545
+        }
+    ],
+    "changed": [
+        {
+            "value": 1487597348
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Hereford",
+            "dependent_locality": null,
+            "postal_code": "T32 9ES",
+            "sorting_code": null,
+            "address_line1": "7417 Main Street",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1994-04-30"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "female"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mrs Kayla Fields",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 756806"
+        }
+    ]
+}

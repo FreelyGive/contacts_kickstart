@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/567?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/466?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 567
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6a3f04c8-2450-4d87-a35b-410a68d1caa2"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 567
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/466?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e445ed17-f073-454f-a53c-a9e4857e6fc9"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1330788846
+        }
+    ],
+    "changed": [
+        {
+            "value": 1488295928
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Carlisle",
+            "dependent_locality": null,
+            "postal_code": "CB03 6RT",
+            "sorting_code": null,
+            "address_line1": "9996 Manor Road",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1982-01-31"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "male"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mr Terrance Bailey",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 034064"
+        }
+    ]
+}

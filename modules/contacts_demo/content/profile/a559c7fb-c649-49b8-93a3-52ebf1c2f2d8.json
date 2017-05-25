@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/532?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/438?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 532
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a559c7fb-c649-49b8-93a3-52ebf1c2f2d8"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 532
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/438?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "564709be-c1be-435d-831a-ece9488cf9c5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1082317529
+        }
+    ],
+    "changed": [
+        {
+            "value": 1476339856
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Miskolc",
+            "dependent_locality": null,
+            "postal_code": "3527",
+            "sorting_code": null,
+            "address_line1": "15039 Goodland Street",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Mydeo"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 984571"
+        }
+    ]
+}

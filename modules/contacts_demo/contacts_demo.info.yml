@@ -1,0 +1,8 @@
+name: Contacts Demo Content
+type: module
+description: 'Provides demo content for the contacts module.'
+core: 8.x
+package: Contacts
+dependencies:
+  - default_content
+  - better_normalizers

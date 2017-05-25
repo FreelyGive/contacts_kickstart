@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/539?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/443?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 539
+        }
+    ],
+    "uuid": [
+        {
+            "value": "695c5dc5-c7c6-4db2-94c1-56e43342c05f"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 539
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/443?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2b10a57c-dc22-4bee-96ee-66d772b932bd"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1304017723
+        }
+    ],
+    "changed": [
+        {
+            "value": 1390771927
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Tulsa",
+            "dependent_locality": null,
+            "postal_code": "74108",
+            "sorting_code": null,
+            "address_line1": "47196 Trailsway Point",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Dynabox"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 258311"
+        }
+    ]
+}

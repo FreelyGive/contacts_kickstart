@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/540?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/444?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 540
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cd410d65-4ddf-4df5-ba8f-b8d9db073bb6"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 540
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/444?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8bbf3790-5538-4599-8474-ed0ed239becd"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1305467825
+        }
+    ],
+    "changed": [
+        {
+            "value": 1399058169
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Skan\u00f6r",
+            "dependent_locality": null,
+            "postal_code": "239 30",
+            "sorting_code": null,
+            "address_line1": "554 Porter Terrace",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Eimbee"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 879905"
+        }
+    ]
+}

@@ -24,4 +24,7 @@ function contacts_kickstart_install() {
   $user = User::load(1);
   $user->roles[] = 'administrator';
   $user->save();
+
+  // Install the demo content.
+  \Drupal::service('module_installer')->install(['contacts_demo']);
 }

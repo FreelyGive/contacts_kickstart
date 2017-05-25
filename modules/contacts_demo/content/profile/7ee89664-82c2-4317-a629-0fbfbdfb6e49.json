@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/542?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_notes"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "href": "http:\/\/default\/user\/445?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 542
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7ee89664-82c2-4317-a629-0fbfbdfb6e49"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 542
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_notes"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/445?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c16035aa-387a-450f-b57d-937e849e05ce"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1373076754
+        }
+    ],
+    "changed": [
+        {
+            "value": 1475100853
+        }
+    ],
+    "crm_notes": [
+        {
+            "value": "syndicate proactive interfaces",
+            "lang": "und"
+        }
+    ]
+}

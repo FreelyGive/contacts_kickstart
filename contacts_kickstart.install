@@ -26,5 +26,5 @@ function contacts_kickstart_install() {
   $user->save();
 
   // Install the demo content.
-  \Drupal::service('module.installer')->install(['contacts_demo']);
+  \Drupal::service('module_installer')->install(['contacts_demo']);
 }

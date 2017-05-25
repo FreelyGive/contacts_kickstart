@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/556?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/456?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 556
+        }
+    ],
+    "uuid": [
+        {
+            "value": "731070ec-152e-4489-b7f3-bfebe3d26c3c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 556
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/456?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b991d3ca-260c-4500-a2f6-4e84c8c2d974"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1047488836
+        }
+    ],
+    "changed": [
+        {
+            "value": 1411418885
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Preston",
+            "dependent_locality": null,
+            "postal_code": "W8J 0XX",
+            "sorting_code": null,
+            "address_line1": "1480 The Crescent",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1973-07-22"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "female"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Miss Vicky Stone",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 504113"
+        }
+    ]
+}

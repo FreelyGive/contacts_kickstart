@@ -1,0 +1,95 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/459?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_indiv": [
+            {
+                "href": "http:\/\/default\/profile\/559?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/354?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 459
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8541541a-930f-440d-a18d-f43e34c5c491"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": 1330569545
+        }
+    ],
+    "changed": [
+        {
+            "value": 1489615021,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_indiv": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/profile\/559?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "df5ca823-3c92-4089-a2d9-4b53a52da750"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/354?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "273b1df2-3dc3-47d9-a556-29cd8603c4d1"
+                    }
+                ],
+                "lang": "en",
+                "alt": null,
+                "title": null,
+                "width": "128",
+                "height": "128"
+            }
+        ]
+    }
+}

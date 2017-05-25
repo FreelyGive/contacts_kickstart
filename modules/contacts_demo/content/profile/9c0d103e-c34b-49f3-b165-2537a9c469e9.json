@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/561?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/461?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 561
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9c0d103e-c34b-49f3-b165-2537a9c469e9"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 561
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/461?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "88327d07-4af2-414d-918f-d694261d24e6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1027978724
+        }
+    ],
+    "changed": [
+        {
+            "value": 1349304482
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Manchester",
+            "dependent_locality": null,
+            "postal_code": "HN25 8WP",
+            "sorting_code": null,
+            "address_line1": "3917 North Street",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1980-11-26"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "male"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mr Nolan Kennedy",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 214543"
+        }
+    ]
+}

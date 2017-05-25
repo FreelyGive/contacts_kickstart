@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/568?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/467?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 568
+        }
+    ],
+    "uuid": [
+        {
+            "value": "696f5df6-e883-443e-9566-4e8cb92086dd"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 568
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/467?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "59a9700a-495d-4e2c-bf7a-20e21b265e6f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1195321831
+        }
+    ],
+    "changed": [
+        {
+            "value": 1476265244
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Plymouth",
+            "dependent_locality": null,
+            "postal_code": "F1G 1UD",
+            "sorting_code": null,
+            "address_line1": "5405 Manor Road",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1949-12-13"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "female"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Ms Abigail Carlson",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 230178"
+        }
+    ]
+}

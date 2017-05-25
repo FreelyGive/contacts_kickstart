@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/544?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_notes"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "href": "http:\/\/default\/user\/446?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 544
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c4c16578-31e6-482c-bfa6-96f6abce0c32"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 544
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_notes"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/446?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "42b1d88c-7508-42b0-a413-8a8585784a48"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1349390140
+        }
+    ],
+    "changed": [
+        {
+            "value": 1455833802
+        }
+    ],
+    "crm_notes": [
+        {
+            "value": "deploy B2C supply-chains",
+            "lang": "und"
+        }
+    ]
+}

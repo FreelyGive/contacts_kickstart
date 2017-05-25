@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/440?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_notes": [
+            {
+                "href": "http:\/\/default\/profile\/535?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_org": [
+            {
+                "href": "http:\/\/default\/profile\/534?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/335?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 440
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cc778996-83c6-4ab6-b619-31a999847835"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": 1444747001
+        }
+    ],
+    "changed": [
+        {
+            "value": 1489611097,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_notes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/profile\/535?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_notes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2ecc9c46-4698-4521-9008-aa6fc9d5bfe8"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/profile_crm_org": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/profile\/534?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d88b814e-556c-494e-98c5-83a697272743"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/335?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/undefined"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "248352a3-fc76-4771-bddb-bde60a2c6b82"
+                    }
+                ],
+                "lang": "en",
+                "alt": null,
+                "title": null,
+                "width": "680",
+                "height": "173"
+            }
+        ]
+    }
+}

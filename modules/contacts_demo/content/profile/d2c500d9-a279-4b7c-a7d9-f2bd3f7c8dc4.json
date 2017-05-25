@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/545?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/447?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 545
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d2c500d9-a279-4b7c-a7d9-f2bd3f7c8dc4"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 545
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/447?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e076b4a8-fcb8-458a-ae57-cd6379e04453"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 986068027
+        }
+    ],
+    "changed": [
+        {
+            "value": 1467669594
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Bayabas",
+            "dependent_locality": null,
+            "postal_code": "8303",
+            "sorting_code": null,
+            "address_line1": "0246 Moose Road",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Jabberstorm"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 531322"
+        }
+    ]
+}

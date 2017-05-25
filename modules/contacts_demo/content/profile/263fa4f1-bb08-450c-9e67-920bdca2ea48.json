@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/546?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_notes"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "href": "http:\/\/default\/user\/447?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 546
+        }
+    ],
+    "uuid": [
+        {
+            "value": "263fa4f1-bb08-450c-9e67-920bdca2ea48"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 546
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_notes"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_notes\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/447?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e076b4a8-fcb8-458a-ae57-cd6379e04453"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 986068027
+        }
+    ],
+    "changed": [
+        {
+            "value": 1467669594
+        }
+    ],
+    "crm_notes": [
+        {
+            "value": "incubate next-generation e-business",
+            "lang": "und"
+        }
+    ]
+}

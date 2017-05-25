@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/538?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/442?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 538
+        }
+    ],
+    "uuid": [
+        {
+            "value": "335e4ddf-0f6c-4a41-bc0b-6629531d674a"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 538
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/442?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "23b4d106-0687-4785-82ee-061aeb9c5ac3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1307161655
+        }
+    ],
+    "changed": [
+        {
+            "value": 1393649969
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Balky",
+            "dependent_locality": null,
+            "postal_code": "",
+            "sorting_code": null,
+            "address_line1": "08 Cardinal Center",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Rhynoodle"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 374385"
+        }
+    ]
+}

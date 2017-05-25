@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/569?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/468?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 569
+        }
+    ],
+    "uuid": [
+        {
+            "value": "49cc2f06-61b7-4f28-91e3-e2c718d67599"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 569
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/468?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "52353115-186d-4cce-b745-864afb45ed9c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1113464236
+        }
+    ],
+    "changed": [
+        {
+            "value": 1489616939
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Cardiff",
+            "dependent_locality": null,
+            "postal_code": "S5 4BY",
+            "sorting_code": null,
+            "address_line1": "6824 Queens Road",
+            "address_line2": "",
+            "organization": "",
+            "given_name": "",
+            "additional_name": null,
+            "family_name": "",
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1994-09-16"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "male"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mr Adrian Castillo",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 782400"
+        }
+    ]
+}

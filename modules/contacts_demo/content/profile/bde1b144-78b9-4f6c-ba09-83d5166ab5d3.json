@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/572?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/471?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 572
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bde1b144-78b9-4f6c-ba09-83d5166ab5d3"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 572
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/471?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7c42d9fe-2625-4c8d-ba80-dd94da48e4df"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1358053219
+        }
+    ],
+    "changed": [
+        {
+            "value": 1475157397
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Leicester",
+            "dependent_locality": null,
+            "postal_code": "B62 6QL",
+            "sorting_code": null,
+            "address_line1": "4532 Broadway",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1959-10-20"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "male"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mr Herbert Bryant",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 353199"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/570?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/469?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 570
+        }
+    ],
+    "uuid": [
+        {
+            "value": "45cabe91-8643-41cb-b257-e0594449f300"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 570
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/469?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f1a1ac58-329c-488d-b2dc-f4a6f50ce619"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1192815711
+        }
+    ],
+    "changed": [
+        {
+            "value": 1474271739
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Edinburgh",
+            "dependent_locality": null,
+            "postal_code": "D06 0ZP",
+            "sorting_code": null,
+            "address_line1": "7149 Albert Road",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1958-09-10"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "female"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Mrs Susan Young",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 804331"
+        }
+    ]
+}

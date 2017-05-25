@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/543?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/446?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 543
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b25f90c2-c937-40e4-8cd9-cb11610b727c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 543
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/446?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "42b1d88c-7508-42b0-a413-8a8585784a48"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1349390140
+        }
+    ],
+    "changed": [
+        {
+            "value": 1455833802
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Alvar\u00e3es",
+            "dependent_locality": null,
+            "postal_code": "69475-000",
+            "sorting_code": null,
+            "address_line1": "693 Orin Terrace",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Voomm"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 618564"
+        }
+    ]
+}

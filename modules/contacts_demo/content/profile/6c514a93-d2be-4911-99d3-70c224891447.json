@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/562?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_indiv"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "href": "http:\/\/default\/user\/462?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": 562
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6c514a93-d2be-4911-99d3-70c224891447"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 562
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_indiv"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_indiv\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/462?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6757c087-f4b8-4657-bb58-57dd3e633958"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1196499071
+        }
+    ],
+    "changed": [
+        {
+            "value": 1402439545
+        }
+    ],
+    "crm_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "Chichester",
+            "dependent_locality": null,
+            "postal_code": "U81 9QW",
+            "sorting_code": null,
+            "address_line1": "2752 Alexander Road",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "und"
+        }
+    ],
+    "crm_dob": [
+        {
+            "value": "1952-06-13"
+        }
+    ],
+    "crm_gender": [
+        {
+            "value": "female"
+        }
+    ],
+    "crm_name": [
+        {
+            "value": "Ms Ella Williams",
+            "lang": "und"
+        }
+    ],
+    "crm_phone": [
+        {
+            "value": "07000 619295"
+        }
+    ]
+}

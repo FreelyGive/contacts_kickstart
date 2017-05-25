@@ -18,7 +18,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/351?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/fileCn4tDb.jpg",
                 "lang": "en"
             }
         ]
@@ -39,9 +39,29 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
     "name": [
         {
             "value": "orangegorilla613"
+        }
+    ],
+    "mail": [
+        {
+            "value": "vicky.stone@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
         }
     ],
     "created": [
@@ -53,6 +73,21 @@
         {
             "value": 1490191658,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 1384702167
+        }
+    ],
+    "login": [
+        {
+            "value": 1384641904
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_indiv"
         }
     ],
     "default_langcode": [
@@ -100,10 +135,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/351?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/fileCn4tDb.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

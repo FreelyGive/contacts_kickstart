@@ -13,7 +13,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/333?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/fileFMaoYL",
                 "lang": "en"
             }
         ]
@@ -34,6 +34,26 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "mail": [
+        {
+            "value": "wpowell0@amazon.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
     "created": [
         {
             "value": 1082317529
@@ -43,6 +63,21 @@
         {
             "value": 1489611097,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 0
+        }
+    ],
+    "login": [
+        {
+            "value": 0
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_org"
         }
     ],
     "default_langcode": [
@@ -73,10 +108,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/333?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/fileFMaoYL"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/undefined"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

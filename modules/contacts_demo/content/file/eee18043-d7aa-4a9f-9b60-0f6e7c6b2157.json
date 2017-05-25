@@ -1,10 +1,10 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/file\/366?_format=hal_json"
+            "href": "http:\/\/default\/sites\/default\/files\/filef12pvk.jpg"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         }
     },
     "fid": [
@@ -20,11 +20,6 @@
     "langcode": [
         {
             "value": "en"
-        }
-    ],
-    "type": [
-        {
-            "target_id": "image"
         }
     ],
     "filename": [

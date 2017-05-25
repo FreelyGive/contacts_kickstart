@@ -23,7 +23,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/363?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/filexaIALF.jpg",
                 "lang": "en"
             }
         ]
@@ -44,9 +44,29 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
     "name": [
         {
             "value": "adrian.castillo"
+        }
+    ],
+    "mail": [
+        {
+            "value": "adrian.castillo@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
         }
     ],
     "created": [
@@ -58,6 +78,21 @@
         {
             "value": 1493717578,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 1489618954
+        }
+    ],
+    "login": [
+        {
+            "value": 1489615273
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_indiv"
         }
     ],
     "default_langcode": [
@@ -122,10 +157,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/363?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/filexaIALF.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

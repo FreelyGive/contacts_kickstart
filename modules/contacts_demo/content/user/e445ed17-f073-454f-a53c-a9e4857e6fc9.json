@@ -13,7 +13,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/361?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/file79KuSX.jpg",
                 "lang": "en"
             }
         ]
@@ -34,9 +34,29 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
     "name": [
         {
             "value": "ticklishpeacock963"
+        }
+    ],
+    "mail": [
+        {
+            "value": "terrance.bailey@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
         }
     ],
     "created": [
@@ -48,6 +68,21 @@
         {
             "value": 1489615021,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 1486512831
+        }
+    ],
+    "login": [
+        {
+            "value": 1486512232
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_indiv"
         }
     ],
     "default_langcode": [
@@ -78,10 +113,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/361?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/file79KuSX.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

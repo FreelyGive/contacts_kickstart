@@ -18,7 +18,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/366?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/filef12pvk.jpg",
                 "lang": "en"
             }
         ]
@@ -39,6 +39,26 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "mail": [
+        {
+            "value": "herbert.bryant@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
     "created": [
         {
             "value": 1358053219
@@ -48,6 +68,21 @@
         {
             "value": 1489615021,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 0
+        }
+    ],
+    "login": [
+        {
+            "value": 0
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_indiv"
         }
     ],
     "default_langcode": [
@@ -95,10 +130,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/366?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/filef12pvk.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

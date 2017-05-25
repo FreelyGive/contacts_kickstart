@@ -13,7 +13,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
-                "href": "http:\/\/default\/file\/365?_format=hal_json",
+                "href": "http:\/\/default\/sites\/default\/files\/fileerjoAq.jpg",
                 "lang": "en"
             }
         ]
@@ -34,9 +34,29 @@
             "lang": "en"
         }
     ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
     "name": [
         {
             "value": "lazylion934"
+        }
+    ],
+    "mail": [
+        {
+            "value": "barbara.rivera@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/London"
+        }
+    ],
+    "status": [
+        {
+            "value": true
         }
     ],
     "created": [
@@ -48,6 +68,21 @@
         {
             "value": 1489615021,
             "lang": "en"
+        }
+    ],
+    "access": [
+        {
+            "value": 1424119288
+        }
+    ],
+    "login": [
+        {
+            "value": 1424051567
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "crm_indiv"
         }
     ],
     "default_langcode": [
@@ -78,10 +113,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/365?_format=hal_json"
+                        "href": "http:\/\/default\/sites\/default\/files\/fileerjoAq.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

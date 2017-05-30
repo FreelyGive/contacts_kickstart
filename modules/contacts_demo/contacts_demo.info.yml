@@ -4,5 +4,5 @@ description: 'Provides demo content for the contacts module.'
 core: 8.x
 package: Contacts
 dependencies:
-  - default_content
-  - better_normalizers
+  - default_content:default_content
+  - better_normalizers:better_normalizers

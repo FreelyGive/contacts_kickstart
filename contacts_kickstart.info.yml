@@ -8,10 +8,11 @@ distribution:
 
 dependencies:
   # Core
-  - toolbar
+  - drupal:toolbar
+  - drupal:system
 
   # Contrib
-  - contacts
+  - contacts:contacts
 
 themes:
   # Core
